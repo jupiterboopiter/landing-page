@@ -30,3 +30,40 @@ nav{
     font-size: 35px;
     cursor: pointer;
 }
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    color: #9e8ca9;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    transition: .4s;
+    color: #44546c;
+}
+
+.btn {
+    background-color: #9e8ca9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
