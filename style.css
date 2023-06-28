@@ -10,7 +10,7 @@
     width: 100%;
     background-image: url(./images/moon.jpg);
     background-size: cover;
-    background-position: center;
+    background-position-x: 200px;
 }
 
 nav{
@@ -32,8 +32,7 @@ nav{
 }
 
 span{
-    font-family: 'Montserrat', sans-serif;
-    color: #9e8ca9;
+    color: #879dcc;
 }
 
 nav ul li {
@@ -54,7 +53,7 @@ nav ul li a:hover {
 }
 
 .btn {
-    background-color: #9e8ca9;
+    background-color: #879dcc;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -66,4 +65,59 @@ nav ul li a:hover {
 
 .btn:hover {
     transform: scale(1.2);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: #acacb4;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.news form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.news form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #acacb4;
+    outline: none;
+    border-radius: 30px;
+    background-color: black;
+}
+
+.news form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #44546c;
+    color: white;
+    box-shadow: 0px 0px 1px #000, 0px 0px 30px #ffffff;
+    top: 6px;
+    right: 6px;
 }
