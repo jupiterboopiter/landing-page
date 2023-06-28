@@ -1,3 +1,32 @@
 * {
     font-family: 'Space Mono', monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/moon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 300;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
 }
