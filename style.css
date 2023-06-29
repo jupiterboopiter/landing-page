@@ -117,7 +117,8 @@ h4 {
     border-radius: 30px;
     background-color: #44546c;
     color: white;
-    box-shadow: 0px 0px 1px #000, 0px 0px 30px #ffffff;
+    box-shadow: 0px 0px 20px #000, 0px 0px 25px #ffffff;
     top: 6px;
     right: 6px;
 }
+
