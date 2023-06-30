@@ -10,7 +10,7 @@
     width: 100%;
     background-image: url(./images/moon.jpg);
     background-size: cover;
-    background-position-x: 200px;
+    
 }
 
 nav{
@@ -125,7 +125,7 @@ h4 {
 .about {
     width: 100%;
     padding: 100px 0px;
-    background-color: #1c2431;
+    background-color: #1f1f1f;
 }
 
 .about img {
